@@ -3,5 +3,6 @@
   "outputDirectory": "frontend/.next",
   "installCommand": "npm install",
   "devCommand": "npm run dev --workspace=frontend",
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "note": "Trigger fresh build at 12:07:16"
 }
