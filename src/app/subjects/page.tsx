@@ -21,7 +21,8 @@ export default function SubjectsPage() {
     const fetchSubjects = async () => {
       try {
         const res = await apiClient.get('/subjects');
-        setSubjects(res.data);
+        // Handle both old array format and new {subjects, debug} format
+        setSubjects(Array.isArray(res.data) ? res.data : (res.data.subjects || []));
       } catch (err) {
         console.error('Failed to load subjects', err);
       } finally {
