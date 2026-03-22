@@ -13,7 +13,7 @@ export default function Navbar() {
           <div className="bg-primary p-2 rounded-xl text-white shadow-lg shadow-indigo-500/20">
             <BookOpen size={24} />
           </div>
-          LumosLMS
+          DPK LMS
         </Link>
 
         <div className="flex gap-8 items-center text-slate-400 font-medium">

@@ -8,7 +8,7 @@ export default function LandingPage() {
       <header className="flex items-center justify-between border-b border-zinc-800/50 bg-zinc-950/80 px-8 py-4 backdrop-blur-md sticky top-0 z-50">
         <div className="flex items-center gap-2">
           <BookOpen className="h-6 w-6 text-indigo-500" />
-          <span className="text-xl font-bold tracking-tighter">LumosLMS</span>
+          <span className="text-xl font-bold tracking-tighter">DPK LMS</span>
         </div>
         <nav className="flex items-center gap-4">
           <Link href="/auth/login" className="text-sm font-medium text-zinc-400 hover:text-zinc-100 transition-colors">
@@ -37,7 +37,7 @@ export default function LandingPage() {
           </h1>
           
           <p className="mt-6 text-lg leading-8 text-zinc-400 max-w-2xl mx-auto">
-            Experience a premium learning management system. Structured courses, seamless video progressing, and a beautifully minimalist environment designed for deep focus.
+            Experience DPK LMS. Structured courses, seamless video progressing, and a beautifully minimalist environment designed for deep focus.
           </p>
           
           <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -96,7 +96,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer className="border-t border-zinc-900 bg-zinc-950 py-10 text-center relative z-10">
-        <p className="text-sm text-zinc-500">&copy; {new Date().getFullYear()} LumosLMS Platform. All rights reserved.</p>
+        <p className="text-sm text-zinc-500">&copy; {new Date().getFullYear()} DPK LMS Platform. All rights reserved.</p>
       </footer>
     </div>
   );
